@@ -1,6 +1,6 @@
 package TestFinal.Interfete;
 
-public interface Flyable {
+public interface IFlyable {
 
     void fly();
 }

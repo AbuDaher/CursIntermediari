@@ -4,8 +4,8 @@ import TestFinal.ClaseDeBaza.Employee;
 
 public class Cashier extends Employee {
 
-    boolean canOperateComputer;
-    final int price = 50;
+   private boolean canOperateComputer;
+   private final int price = 50;
 
     public Cashier(String name, String jobName, int age, boolean canOperateComputer) {
         super(name, jobName, age);
@@ -28,5 +28,17 @@ public class Cashier extends Employee {
                 "canOperateComputer=" + canOperateComputer +
                 ", price=" + price +
                 '}';
+    }
+
+    public boolean isCanOperateComputer() {
+        return canOperateComputer;
+    }
+
+    public void setCanOperateComputer(boolean canOperateComputer) {
+        this.canOperateComputer = canOperateComputer;
+    }
+
+    public int getPrice() {
+        return price;
     }
 }

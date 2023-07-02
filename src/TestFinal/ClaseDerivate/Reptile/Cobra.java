@@ -1,19 +1,19 @@
 package TestFinal.ClaseDerivate.Reptile;
 
 import TestFinal.ClaseDeBaza.Reptile;
+import TestFinal.Interfete.IPoisonous;
 
-public class Iguana extends Reptile {
+public class Cobra extends Reptile implements IPoisonous {
     private boolean canBeDangerous;
 
-    public Iguana(int yearOfBird, String name, String gender, String species, String continentOfOrigin, String favouriteFood, boolean canBeDangerous) {
+    public Cobra(int yearOfBird, String name, String gender, String species, String continentOfOrigin, String favouriteFood, boolean canBeDangerous) {
         super(yearOfBird, name, gender, species, continentOfOrigin, favouriteFood);
         this.canBeDangerous = canBeDangerous;
     }
 
     @Override
-    public void coldBlood() {
-
-        System.out.println("This species need special light to get worm.");
+    public void canPoisonYou() {
+        System.out.println("Should you be careful around Cobras? The answer is :" + !this.canBeDangerous);
     }
 
     public boolean isCanBeDangerous() {

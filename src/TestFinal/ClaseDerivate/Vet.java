@@ -6,9 +6,9 @@ public class Vet extends Employee {
 
     String name;
 
-    int numberOfVets;
-    int numberOfHours;
-    int result;
+    private int numberOfVets;
+    private int numberOfHours;
+    private int result;
 
     public Vet(String name, String jobName, int age, String name1, int numberOfVets, int numberOfHours, int result) {
         super(name, jobName, age);
@@ -41,5 +41,37 @@ public class Vet extends Employee {
                 ", numberOfVets=" + numberOfVets +
                 ", numberOfHours=" + numberOfHours +
                 '}';
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getNumberOfVets() {
+        return numberOfVets;
+    }
+
+    public void setNumberOfVets(int numberOfVets) {
+        this.numberOfVets = numberOfVets;
+    }
+
+    public int getNumberOfHours() {
+        return numberOfHours;
+    }
+
+    public void setNumberOfHours(int numberOfHours) {
+        this.numberOfHours = numberOfHours;
+    }
+
+    public int getResult() {
+        return result;
+    }
+
+    public void setResult(int result) {
+        this.result = result;
     }
 }

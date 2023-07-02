@@ -1,6 +1,6 @@
 package TestFinal.Interfete;
 
-public interface Herbivore {
+public interface IHerbivore {
 
     void eatOnlyVegetables();
 }

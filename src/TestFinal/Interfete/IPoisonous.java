@@ -1,6 +1,6 @@
 package TestFinal.Interfete;
 
-public interface Poisonous {
+public interface IPoisonous {
 
     void canPoisonYou();
 }

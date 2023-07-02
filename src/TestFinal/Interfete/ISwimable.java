@@ -1,6 +1,6 @@
 package TestFinal.Interfete;
 
-public interface Swimable {
+public interface ISwimable {
 
     void canSwim();
 }

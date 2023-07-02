@@ -3,8 +3,8 @@ package TestFinal.ClaseDerivate;
 import TestFinal.ClaseDeBaza.Employee;
 
 public class Janitor extends Employee {
-    double numberOfHoursWorkers;
-    final int gardenArea = 10000;
+   private double numberOfHoursWorkers;
+   private final int gardenArea = 10000;
 
     public Janitor(String name, String jobName, int age, double numberOfHoursWorkers) {
         super(name, jobName, age);
@@ -27,5 +27,17 @@ public class Janitor extends Employee {
                 "numberOfHoursWorkers=" + numberOfHoursWorkers +
                 ", gardenArea=" + gardenArea +
                 '}';
+    }
+
+    public double getNumberOfHoursWorkers() {
+        return numberOfHoursWorkers;
+    }
+
+    public void setNumberOfHoursWorkers(double numberOfHoursWorkers) {
+        this.numberOfHoursWorkers = numberOfHoursWorkers;
+    }
+
+    public int getGardenArea() {
+        return gardenArea;
     }
 }
