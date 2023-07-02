@@ -23,4 +23,6 @@ public class Deer extends Mammal implements IHerbivore {
     public void setCanBeTrained(boolean canBeTrained) {
         this.canBeTrained = canBeTrained;
     }
+
+
 }

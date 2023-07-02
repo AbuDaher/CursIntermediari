@@ -22,4 +22,6 @@ public class Cat extends Mammal {
     public void setCanBeTrained(boolean canBeTrained) {
         this.canBeTrained = canBeTrained;
     }
+
+
 }

@@ -24,4 +24,6 @@ public class Anaconda extends Reptile implements ICarnivore {
     public void setCanBeDangerous(boolean canBeDangerous) {
         this.canBeDangerous = canBeDangerous;
     }
+
+
 }

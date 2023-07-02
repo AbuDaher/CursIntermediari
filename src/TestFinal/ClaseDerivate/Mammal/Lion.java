@@ -23,4 +23,6 @@ public class Lion extends Mammal implements ICarnivore {
     public void setCanBeTrained(boolean canBeTrained) {
         this.canBeTrained = canBeTrained;
     }
+
+
 }

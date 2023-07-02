@@ -32,4 +32,6 @@ public class Aligator extends Reptile implements ICarnivore, ISwimable {
     public void setCanBeDangerous(boolean canBeDangerous) {
         this.canBeDangerous = canBeDangerous;
     }
+
+
 }

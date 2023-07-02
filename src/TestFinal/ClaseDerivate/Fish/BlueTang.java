@@ -24,4 +24,6 @@ public class BlueTang extends Fish implements ISwimable {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+
 }

@@ -23,4 +23,6 @@ public class Eagle extends Bird implements IFlyable {
     public void setHeight(double height) {
         this.height = height;
     }
+
+
 }

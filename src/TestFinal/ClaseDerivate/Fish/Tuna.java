@@ -23,4 +23,6 @@ public class Tuna extends Fish implements IFlyable {
     public void setKg(int kg) {
         this.kg = kg;
     }
+
+
 }

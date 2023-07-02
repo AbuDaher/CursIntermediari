@@ -23,4 +23,6 @@ public class Somon extends Fish implements IFlyable {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+
 }

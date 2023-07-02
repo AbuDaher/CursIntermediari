@@ -23,4 +23,6 @@ public class Swan extends Bird implements IFlyable {
     public void setHeight(double height) {
         this.height = height;
     }
+
+
 }

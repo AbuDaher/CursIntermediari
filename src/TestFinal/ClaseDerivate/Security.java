@@ -29,6 +29,7 @@ public class Security extends Employee {
         return "Security{" +
                 "numberOfGuardien=" + numberOfGuardien +
                 ", hasSpecialEquipment=" + hasSpecialEquipment +
+                ", gardenArea=" + gardenArea +
                 '}';
     }
 

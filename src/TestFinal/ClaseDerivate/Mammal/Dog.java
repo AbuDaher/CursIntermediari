@@ -18,4 +18,6 @@ public class Dog extends Mammal {
     public void setCanBeTrained(boolean canBeTrained) {
         this.canBeTrained = canBeTrained;
     }
+
+
 }

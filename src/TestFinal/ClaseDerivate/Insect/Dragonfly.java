@@ -24,4 +24,5 @@ public class Dragonfly extends Insect implements IFlyable {
     public void setSize(double size) {
         this.size = size;
     }
+
 }

@@ -39,6 +39,7 @@ public class Vet extends Employee {
                 "name='" + name + '\'' +
                 ", numberOfVets=" + numberOfVets +
                 ", numberOfHours=" + numberOfHours +
+                ", result=" + result +
                 '}';
     }
 

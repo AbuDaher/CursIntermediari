@@ -23,4 +23,6 @@ public class Cobra extends Reptile implements IPoisonous {
     public void setCanBeDangerous(boolean canBeDangerous) {
         this.canBeDangerous = canBeDangerous;
     }
+
+
 }
