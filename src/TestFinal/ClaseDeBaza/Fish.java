@@ -1,11 +1,12 @@
 package TestFinal.ClaseDeBaza;
 
-public class Fish {
+public class Fish extends Animal{
     String species;
     boolean saltWaterFish;
     int gills;
 
-    public Fish(String species, boolean saltWaterFish, int gills) {
+    public Fish(int yearOfBird, String name, String gender, String species, boolean saltWaterFish, int gills) {
+        super(yearOfBird, name, gender);
         this.species = species;
         this.saltWaterFish = saltWaterFish;
         this.gills = gills;
@@ -21,6 +22,11 @@ public class Fish {
 
     public void breathesUnderwater(int minutes){
         System.out.println(this.species + " can beathe underwater for " + minutes + " minutes. ");
+
+    }
+
+    @Override
+    public void eats() {
 
     }
 

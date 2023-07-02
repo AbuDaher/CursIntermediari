@@ -1,5 +1,13 @@
 package TestFinal.ClaseDerivate.Reptile;
 
-public class Aligator {
+import TestFinal.ClaseDeBaza.Reptile;
+
+public class Aligator extends Reptile {
+
     boolean canBeDangerous;
+
+
+    public Aligator(String species, String continentOfOrigin, String favouriteFood) {
+        super(species, continentOfOrigin, favouriteFood);
+    }
 }

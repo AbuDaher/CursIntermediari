@@ -1,11 +1,12 @@
 package TestFinal.ClaseDeBaza;
 
-public class Reptile {
+public class Reptile extends Animal{
     String species;
     String continentOfOrigin;
     String favouriteFood;
 
-    public Reptile(String species, String continentOfOrigin, String favouriteFood) {
+    public Reptile(int yearOfBird, String name, String gender, String species, String continentOfOrigin, String favouriteFood) {
+        super(yearOfBird, name, gender);
         this.species = species;
         this.continentOfOrigin = continentOfOrigin;
         this.favouriteFood = favouriteFood;
@@ -20,6 +21,10 @@ public class Reptile {
     }
 
 
+    @Override
+    public void eats() {
+
+    }
 
     @Override
     public String toString() {

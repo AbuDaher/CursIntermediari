@@ -1,5 +1,11 @@
 package TestFinal.ClaseDerivate.Bird;
 
-public class Crow {
+import TestFinal.ClaseDeBaza.Bird;
+
+public class Crow extends Bird {
     double height ;
+
+    public Crow(String species, String continentOfOrigin, String favouriteFood) {
+        super(species, continentOfOrigin, favouriteFood);
+    }
 }

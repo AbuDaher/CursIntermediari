@@ -1,12 +1,13 @@
 package TestFinal.ClaseDeBaza;
 
-public class Insect {
+public class Insect extends Animal{
 
     String species;
     String continentOfOrigin;
     String favouriteFood;
 
-    public Insect(String species, String continentOfOrigin, String favouriteFood) {
+    public Insect(int yearOfBird, String name, String gender, String species, String continentOfOrigin, String favouriteFood) {
+        super(yearOfBird, name, gender);
         this.species = species;
         this.continentOfOrigin = continentOfOrigin;
         this.favouriteFood = favouriteFood;
@@ -20,6 +21,11 @@ public class Insect {
     public void pinches(){
         System.out.println(this.species + "originates from " + this.continentOfOrigin +
                 " can pich you if you disturb their environment");
+    }
+
+    @Override
+    public void eats() {
+
     }
 
     @Override

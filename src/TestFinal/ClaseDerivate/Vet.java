@@ -1,6 +1,8 @@
 package TestFinal.ClaseDerivate;
 
-public class Vet {
+import TestFinal.ClaseDeBaza.Employee;
+
+public class Vet extends Employee {
 
     String name;
 
@@ -8,10 +10,12 @@ public class Vet {
     int numberOfHours;
     int result;
 
-    public Vet(String name, int numberOfVets, int numberOfHours) {
-        this.name = name;
+    public Vet(String name, String jobName, int age, String name1, int numberOfVets, int numberOfHours, int result) {
+        super(name, jobName, age);
+        this.name = name1;
         this.numberOfVets = numberOfVets;
         this.numberOfHours = numberOfHours;
+        this.result = result;
     }
 
     public String takesCareOfAnimals(){
@@ -23,6 +27,11 @@ public class Vet {
     public String collectsMoney(int amount){
         result = amount * numberOfVets * numberOfHours;
         return this.name + " makes " + result + " profit per day";
+    }
+
+    @Override
+    public void feedsAnimals() {
+
     }
 
     @Override

@@ -1,11 +1,12 @@
 package TestFinal.ClaseDeBaza;
 
-public class Mammal {
+public class Mammal extends Animal {
     String species;
     String ContinentOfOrigin;
     String favouriteFood;
 
-    public Mammal(String species, String continentOfOrigin, String favouriteFood) {
+    public Mammal(int yearOfBird, String name, String gender, String species, String continentOfOrigin, String favouriteFood) {
+        super(yearOfBird, name, gender);
         this.species = species;
         ContinentOfOrigin = continentOfOrigin;
         this.favouriteFood = favouriteFood;
@@ -26,6 +27,11 @@ public class Mammal {
         } else {
             System.out.println("we don't have mammals with this weight");
         }
+    }
+
+    @Override
+    public void eats() {
+
     }
 
     @Override

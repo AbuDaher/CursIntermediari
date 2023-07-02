@@ -1,5 +1,11 @@
 package TestFinal.ClaseDerivate.Mammal;
 
-public class Dog {
+import TestFinal.ClaseDeBaza.Mammal;
+
+public class Dog extends Mammal {
     boolean canBeTrained;
+
+    public Dog(String species, String continentOfOrigin, String favouriteFood) {
+        super(species, continentOfOrigin, favouriteFood);
+    }
 }

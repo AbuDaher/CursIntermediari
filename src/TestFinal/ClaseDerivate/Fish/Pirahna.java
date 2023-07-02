@@ -1,6 +1,12 @@
 package TestFinal.ClaseDerivate.Fish;
 
-public class Pirahna {
+import TestFinal.ClaseDeBaza.Fish;
+
+public class Pirahna extends Fish {
 
         double weight;
+
+        public Pirahna(String species, boolean saltWaterFish, int gills) {
+                super(species, saltWaterFish, gills);
+        }
 }
