@@ -6,7 +6,8 @@ public class Butterfly extends Insect {
 
     double size;
 
-    public Butterfly(String species, String continentOfOrigin, String favouriteFood) {
-        super(species, continentOfOrigin, favouriteFood);
+    public Butterfly(int yearOfBird, String name, String gender, String species, String continentOfOrigin, String favouriteFood, double size) {
+        super(yearOfBird, name, gender, species, continentOfOrigin, favouriteFood);
+        this.size = size;
     }
 }

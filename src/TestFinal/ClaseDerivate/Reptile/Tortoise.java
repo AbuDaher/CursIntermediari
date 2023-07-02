@@ -6,7 +6,8 @@ public class Tortoise extends Reptile {
 
     boolean canBeDangerous;
 
-    public Tortoise(String species, String continentOfOrigin, String favouriteFood) {
-        super(species, continentOfOrigin, favouriteFood);
+
+    public Tortoise(int yearOfBird, String name, String gender, String species, String continentOfOrigin, String favouriteFood) {
+        super(yearOfBird, name, gender, species, continentOfOrigin, favouriteFood);
     }
 }

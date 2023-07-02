@@ -6,7 +6,8 @@ public class Ant extends Insect {
 
     double size;
 
-    public Ant(String species, String continentOfOrigin, String favouriteFood) {
-        super(species, continentOfOrigin, favouriteFood);
+    public Ant(int yearOfBird, String name, String gender, String species, String continentOfOrigin, String favouriteFood, double size) {
+        super(yearOfBird, name, gender, species, continentOfOrigin, favouriteFood);
+        this.size = size;
     }
 }

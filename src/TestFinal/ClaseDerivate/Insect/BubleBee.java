@@ -6,7 +6,8 @@ public class BubleBee extends Insect {
 
     double size;
 
-    public BubleBee(String species, String continentOfOrigin, String favouriteFood) {
-        super(species, continentOfOrigin, favouriteFood);
+    public BubleBee(int yearOfBird, String name, String gender, String species, String continentOfOrigin, String favouriteFood, double size) {
+        super(yearOfBird, name, gender, species, continentOfOrigin, favouriteFood);
+        this.size = size;
     }
 }

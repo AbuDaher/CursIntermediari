@@ -6,7 +6,8 @@ public class Cricket extends Insect {
 
     double size;
 
-    public Cricket(String species, String continentOfOrigin, String favouriteFood) {
-        super(species, continentOfOrigin, favouriteFood);
+    public Cricket(int yearOfBird, String name, String gender, String species, String continentOfOrigin, String favouriteFood, double size) {
+        super(yearOfBird, name, gender, species, continentOfOrigin, favouriteFood);
+        this.size = size;
     }
 }

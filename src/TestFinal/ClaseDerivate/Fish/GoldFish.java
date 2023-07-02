@@ -6,7 +6,8 @@ public class GoldFish extends Fish {
 
     double weight;
 
-    public GoldFish(String species, boolean saltWaterFish, int gills) {
-        super(species, saltWaterFish, gills);
+    public GoldFish(int yearOfBird, String name, String gender, String species, boolean saltWaterFish, int gills, double weight) {
+        super(yearOfBird, name, gender, species, saltWaterFish, gills);
+        this.weight = weight;
     }
 }
