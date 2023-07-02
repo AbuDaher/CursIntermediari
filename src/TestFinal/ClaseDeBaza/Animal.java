@@ -18,11 +18,10 @@ public abstract class Animal {
 
     public abstract void eats();
 
-    public String gettingOld(){
+    public void gettingOld(){
         System.out.println("What year is it ?");
         int year = sc.nextInt();
-        String message = "I'm getting older, now I have " + (year - yearOfBird);
-        return message;
+        System.out.println("I'm getting older, now I have " + (year - this.yearOfBird) + "years");;
 
     }
 

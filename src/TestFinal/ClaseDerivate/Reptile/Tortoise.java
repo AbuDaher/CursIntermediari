@@ -12,8 +12,8 @@ public class Tortoise extends Reptile {
     }
 
     @Override
-    public String gettingOld() {
-        return "This animals leave more that you can calculate. Don't bother.";
+    public void gettingOld() {
+        System.out.println( "This animals leave more that you can calculate. Don't bother.");;
     }
 
     public boolean isCanBeDangerous() {

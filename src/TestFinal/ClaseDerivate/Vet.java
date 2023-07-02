@@ -10,12 +10,11 @@ public class Vet extends Employee {
     private int numberOfHours;
     private int result;
 
-    public Vet(String name, String jobName, int age, String name1, int numberOfVets, int numberOfHours, int result) {
+    public Vet(String name, String jobName, int age, int numberOfVets, int numberOfHours) {
         super(name, jobName, age);
-        this.name = name1;
+
         this.numberOfVets = numberOfVets;
         this.numberOfHours = numberOfHours;
-        this.result = result;
     }
 
     public String takesCareOfAnimals(){
